@@ -1,17 +1,20 @@
 ![](iris.jpg)
 
 <span>Photo by <a href="https://unsplash.com/@zmachacek?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Zdeněk Macháček</a> on <a href="https://unsplash.com/s/photos/iris-flower?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-This project is going to be focused on solving the problem of predicting house prices for house buyers and house sellers.
 
-A house value is simply more than location and square footage. Like the features that make up a person, an educated party would want to know all aspects that give a house its value.
+This program applies basic machine learning (classification) concepts on Fisher's Iris Data to predict the species of a new sample of Iris flower.
 
-We are going to take advantage of all of the feature variables available to use and use it to analyze and predict house prices.
+Software and Libraries
 
-We are going to break everything into logical steps that allow us to ensure the cleanest, most realistic data for our model to make accurate predictions from.
+Python 3.6.0
+Anaconda 4.3.0 (32 bit)
+scikit-learn 0.18.1
+Introduction
+The dataset for this project originates from the UCI Machine Learning Repository. The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.
 
-1. Load Data and Packages
-2. Analyzing the Test Variable (Sale Price)
-3. Multivariable Analysis
-4. Impute Missing Data and Clean Data
-5. Feature Transformation/Engineering
-6. Modeling and Predictions
+The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor).
+Four features were measured from each sample (in centimetres):
+Length of the sepals
+Width of the sepals
+Length of the petals
+Width of the petals
